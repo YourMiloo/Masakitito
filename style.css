@@ -1,0 +1,55 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url(background.jpg);
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+.lyrics-window {
+  position: fixed;
+  top: 100vh;
+  width: 260px;
+  min-height: 180px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: white;
+  color: black;
+  text-align: center;
+  border: none;
+}
+
+
+
+
+
+
+#windowLyric {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+
+
+.floating-text {
+  display: none;
+}
